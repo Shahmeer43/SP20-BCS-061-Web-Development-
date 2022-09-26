@@ -1,0 +1,168 @@
+#left {
+  background-color: rgba(43, 55, 67, 255);
+  flex-direction: column;
+  display: flex;
+  width: 25%;
+}
+
+#forheight {
+  background-color: rgba(43, 55, 67, 255);
+}
+
+i {
+  color: white;
+}
+
+.div-left {
+  color: white;
+  text-indent: 6%;
+
+  width: 80%;
+}
+
+#github {
+  color: white;
+  text-decoration: none;
+}
+
+.dir {
+  flex-direction: row;
+  display: flex;
+  line-height: 59%;
+  align-items: center;
+  margin-left: 5%;
+}
+
+#line1,
+#line2,
+#line3,
+#line4,
+#lineextra {
+  border-top: 2px solid white;
+  width: 90%;
+}
+
+#skills,
+#honors,
+#score,
+#interest {
+  color: white;
+  margin-left: 5%;
+  line-height: 0%;
+}
+#fordivcenter,
+#fordivcenter2,
+#fordivcenter3,
+#fordivcenter4,
+#fordivcenterextra {
+  justify-content: center;
+  display: flex;
+  margin-top: 2%;
+}
+
+#skills_list {
+  color: white;
+}
+
+.skills_heading,
+.education_heading {
+  font-weight: bold;
+}
+
+#scholarship,
+#certificate,
+#liking {
+  margin-left: 5%;
+  color: white;
+}
+
+/* right div */
+
+#right {
+  width: 75%;
+}
+
+#container {
+  flex-direction: row;
+  display: flex;
+}
+
+#obj,
+#education,
+#experience,
+#projects,
+#activities {
+  line-height: 0%;
+  width: 20%;
+}
+
+#fordivcenter5,
+#fordivcenter6,
+#fordivcenter7,
+#fordivcenter8,
+#fordivcenter9 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 70%;
+}
+
+#line5,
+#line6,
+#line7,
+#line8,
+#line9 {
+  border-top: 2px solid black;
+  width: 75%;
+}
+
+#firstp {
+  margin-left: 2%;
+}
+
+/* main */
+
+#main2 {
+  background-color: rgba(84, 140, 168, 255);
+  height: 20%;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+
+  width: 60%;
+}
+
+#name {
+  height: 20%;
+  margin-left: 2%;
+}
+
+#employee {
+  font-size: 200%;
+  margin-left: 2%;
+}
+
+#myimage {
+  width: 40%;
+  height: 11.2em;
+  background-color: rgba(84, 140, 168, 255);
+}
+
+#header {
+  flex-direction: row;
+  display: flex;
+}
+
+#shahmeer {
+  height: 100%;
+  width: 50%;
+  margin-left: 10%;
+}
+
+/* font */
+p,
+h1,
+h2,
+li {
+  font-family: sans-serif;
+}
