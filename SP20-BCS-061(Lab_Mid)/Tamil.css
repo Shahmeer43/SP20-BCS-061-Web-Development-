@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #007dc6;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+
+#sec_menu {
+  color: black;
+}
+
+#sec_menu {
+  overflow: hidden;
+  width: 70%;
+}
+
+#sec_menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#sec_menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#sec_menu a.active {
+  color: white;
+}
+
+.tomakemenucenter {
+  display: flex;
+  justify-content: center;
+}
+
+#third_menu {
+  color: black;
+  background-color: #0070c0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 70%;
+}
+
+#third_menu {
+  overflow: hidden;
+}
+
+#third_menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#third_menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#third_menu a.active {
+  color: white;
+}
+
+#headlines {
+  background-color: #f3f3f3;
+  width: 80%;
+  height: 80px;
+  margin-top: 0.5%;
+}
+
+#headlines_div {
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: center;
+  display: flex;
+}
+
+.news_content {
+  background-color: #f1f1f1;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 0.5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.news_p {
+  position: absolute;
+  bottom: 50px;
+  color: white;
+  font-size: 20px;
+  width: 15%;
+}
+
+.news {
+  margin: 1%;
+}
+
+#latestNews {
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 20rem;
+}
