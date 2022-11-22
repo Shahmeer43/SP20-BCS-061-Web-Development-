@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #left {
   background-color: rgba(43, 55, 67, 255);
   flex-direction: column;
