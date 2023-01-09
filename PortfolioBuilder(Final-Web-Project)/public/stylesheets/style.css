@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.left-info {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  background-color: rgba(34, 34, 34, 255);
+  height: 25%;
+  width: 100%;
+  color: rgba(255, 251, 237, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Clicker Script", cursive;
+  font-size: 200%;
+}
+.right-info {
+  background-color: rgba(21, 21, 21, 255);
+  width: 80%;
+  height: 100%;
+  color: rgba(255, 251, 237, 255);
+}
+
+.info {
+  margin-top: 0%;
+  background-color: rgba(34, 34, 34, 255);
+  height: 10%;
+  color: rgba(255, 251, 237, 255);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(48, 47, 47, 255);
+  font-weight: 600;
+  width: 40%;
+}
+.intro {
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.intro-font {
+  font-size: 500%;
+  line-height: 20%;
+}
+
+#inline,
+#name {
+  display: inline;
+}
+
+#name,
+#position {
+  color: rgba(255, 97, 14, 255);
+}
+
+.links {
+  text-decoration: none;
+  color: rgba(255, 251, 237, 255);
+}
+
+.current-link {
+  color: rgba(255, 97, 14, 255);
+}
+
+.about {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 10px 2px rgba(255, 97, 14, 255);
+  border-radius: 3%;
+}
+
+#aboutH1 {
+  color: rgba(255, 97, 14, 255);
+}
+
+.editAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(21, 21, 21, 255);
+  width: 100%;
+  height: 100%;
+}
+
+#aboutTextArea {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 10px 2px rgba(255, 97, 14, 255);
+  border-radius: 3%;
+  background-color: rgba(21, 21, 21, 255);
+  color: rgba(255, 251, 237, 255);
+  resize: none;
+}
+
+#aboutTextArea::-webkit-scrollbar {
+  display: none;
+}
+
+#editOkButton {
+  background-color: rgba(255, 97, 14, 255);
+  width: 5%;
+  height: 5%;
+  border-radius: 25px;
+  position: absolute;
+  top: 70.8%;
+  right: 31%;
+}
+
+#editCancelButton {
+  background-color: rgba(255, 97, 14, 255);
+  width: 4.8%;
+  height: 4.54%;
+  border-radius: 25px;
+  position: absolute;
+  top: 71.1%;
+  right: 36.15%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.skillContainer {
+  width: 600px;
+  height: 400px;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 10px 2px rgba(255, 97, 14, 255);
+  border-radius: 3%;
+  background-color: rgba(21, 21, 21, 255);
+  color: rgba(255, 251, 237, 255);
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.skillContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.delete {
+  text-decoration: none;
+  color: rgba(255, 97, 14, 255);
+}
+
+.iconSkills {
+  float: right;
+}
+
+/* login */
+
+.main {
+  background-color: rgba(255, 97, 14, 255);
+  width: 400px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  opacity: 0.9;
+}
+
+.sign {
+  padding-top: 40px;
+  color: #8c55aa;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  color: rgba(21, 21, 21, 255);
+}
+
+.un {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+form.form1 {
+  padding-top: 40px;
+}
+
+.pass {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.un:focus,
+.pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 35%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  background-color: rgba(21, 21, 21, 255);
+}
+
+.register {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  padding-top: 15px;
+}
+
+.register a {
+  color: rgba(21, 21, 21, 255);
+  font-weight: bold;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #e1bee7;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .main {
+    border-radius: 0px;
+  }
+}
+
+#nameBorder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 80%;
+}
+#nameBorder {
+  background: linear-gradient(
+        to right,
+        rgba(255, 97, 14, 255) 7px,
+        transparent 4px
+      )
+      0 100%,
+    linear-gradient(to left, rgba(255, 97, 14, 255) 7px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, rgba(255, 97, 14, 255) 7px, transparent 4px) 100%
+      0,
+    linear-gradient(to top, rgba(255, 97, 14, 255) 7px, transparent 4px) 0 100%;
+
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+}
+
+.Buttons {
+  text-decoration: none;
+  background-color: rgba(255, 97, 14, 255);
+  width: 4.8%;
+  height: 4.54%;
+  border-radius: 20px;
+  position: absolute;
+  top: 76.5%;
+  right: 19%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 2s steps(70, end);
+  animation: type 3s steps(70, end);
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+.mainDataFont {
+  font-size: 120%;
+}
+
+.x {
+  position: absolute;
+  color: white;
+  background-color: black;
+  width: 2%;
+  left: 61%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 1.5em;
+}

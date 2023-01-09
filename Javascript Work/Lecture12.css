@@ -1,0 +1,28 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.titleDiv {
+  border-bottom: 1px dashed blue;
+  margin-bottom: 5px;
+  overflow: hidden;
+  height: 100px;
+}
+
+.title {
+  font-size: 10px;
+  color: red;
+}
+
+.body {
+  font-size: 10px;
+}
+
+.btn {
+  width: 50px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

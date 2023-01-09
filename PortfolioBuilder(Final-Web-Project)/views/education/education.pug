@@ -1,0 +1,8 @@
+extends ../master
+block content
+    div(class="skillContainer")
+        each education in data
+            ul 
+                li(class="mainDataFont")=education
+                    a(href="/education/deleteEducation/" + data.indexOf(education),class="delete") <i class="fa-solid fa-trash iconSkills"></i>
+    a(href="/education/addEducation" class="Buttons") Add

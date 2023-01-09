@@ -1,0 +1,11 @@
+extends ../master
+block content
+    div(class="skillContainer")
+        each work in data
+            ul 
+                li(class="mainDataFont")=work
+                    a(href="/work/deleteWork/" + data.indexOf(work),class="delete") <i class="fa-solid fa-trash iconSkills"></i>
+    a(href="/work/addWork" class="Buttons") Add
+           
+    
+            

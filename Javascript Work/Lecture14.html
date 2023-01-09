@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="Lecture14.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="Lecture14.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>API data</h3>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        name="title"
+        id="addtitle"
+        aria-describedby="titlehelp"
+        placeholder="Enter your title"
+      />
+      <small id="titlehelp" class="form-text text-muted">Enter the title</small>
+    </div>
+
+    <div class="form-group">
+      <label for="title">Body</label>
+      <input
+        type="text"
+        class="form-control"
+        name="body"
+        id="addbody"
+        aria-describedby="bodyhelp"
+        placeholder="Detail for your title"
+      />
+      <small id="titlehelp" class="form-text text-muted"
+        >Enter the Details</small
+      >
+    </div>
+
+    <button id="addButton" type="button" class="btn btn-info btn-sm">
+      Add
+    </button>
+    <div id="data">Loading.............!</div>
+
+    <!-- modal box -->
+
+    <!-- Button trigger modal -->
+    <!-- <button
+      type="button"
+      class="btn btn-primary btn-lg"
+      data-toggle="modal"
+      data-target="#modelId"
+    >
+      Launch
+    </button> -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="updateModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modelTitleId"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Update Data</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <input type="hidden" name="id" id="updateId" /> <br />
+            <label for="updateTitle">Title:</label>
+            <input type="text" name="title" id="updateTitle" /> <br />
+            <label for="updateBody">Body:</label>
+            <input type="text" name="body" id="updateBody" />
+          </div>
+          <div class="modal-footer">
+            <button id="UpdateSave" class="btn btn-primary">Update</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

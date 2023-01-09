@@ -1,0 +1,7 @@
+<link rel='stylesheet', href='../stylesheets/style.css'>
+    div(class="editAbout")
+        form(action="editAbout",method="post")
+            .form-group 
+                textarea#aboutTextArea(type="text",class="form-control",name="edit" size="200")=data
+                input(type="submit" value="Ok" id="editOkButton")
+                a(href="/about" id="editCancelButton") Cancel

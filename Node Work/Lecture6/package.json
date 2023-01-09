@@ -1,0 +1,15 @@
+{
+  "name": "lecture6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "expressdemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

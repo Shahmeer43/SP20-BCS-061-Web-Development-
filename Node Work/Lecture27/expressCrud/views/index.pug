@@ -1,0 +1,21 @@
+extends layout
+
+//- extends ../layout
+
+block content
+    .row
+        .col-sm-8    
+            h1(class = "alert alert-primary") Products Item
+
+    table.table 
+        thead
+            tr 
+                th Name
+                th Price 
+                th
+        tbody 
+            each data in product
+                tr
+                    td=data.name 
+                    td=data.price
+                    

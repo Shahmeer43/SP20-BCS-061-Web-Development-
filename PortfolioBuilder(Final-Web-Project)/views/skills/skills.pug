@@ -1,0 +1,11 @@
+extends ../master
+block content
+    div(class="skillContainer")
+        each skill in data
+            ul
+                li(class="mainDataFont")=skill
+                    a(href="/skills/deleteSkills/" + data.indexOf(skill), class="delete") <i class="fa-solid fa-trash iconSkills"></i>
+    a(href="/skills/addSkills" class="Buttons") Add
+           
+    
+            

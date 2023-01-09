@@ -1,0 +1,31 @@
+<head> 
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/javascripts/colorChange.js")
+    <script src="https://kit.fontawesome.com/c75b7009ea.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+<div class = "container">
+  //left
+  <div class = "Left-info">
+  div(class="name")
+    div(id="nameBorder")=name
+  <div class = "info"><a href = "/intro" class="links" id="intro"><i class="fa-solid fa-user icon"></i> Intro</a></div>
+  <div class = "info"><a href = "/about" class="links" id="about"><i class="fa-solid fa-address-card icon"></i> About</a></div>
+  <div class = "info"><a href = "/skills" class="links"><i class="fa-solid fa-layer-group icon"></i> Skills</a></div>
+  <div class = "info"><a href = "/work" class="links"><i class="fa-solid fa-briefcase icon"></i> Work</a></div>
+  <div class = "info"><a href = "/education" class="links"><i class="fa-solid fa-user-graduate icon"></i> Education</a></div>
+  <div class = "info"><a href = "/experience" class="links"><i class="fa-solid fa-chart-simple icon"></i> Experience</a></div>
+  <div class="info"><a href="/logout" class="links"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></div> 
+
+  </div>
+  //right
+  <div class = "right-info" >
+ 
+ 
+  
+  block content
+
+  
+  </div> 
+</div>
+</body>

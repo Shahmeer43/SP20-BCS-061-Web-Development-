@@ -1,0 +1,10 @@
+extends ../master
+block content
+    div(class="skillContainer")
+        each experience in data
+            ul 
+                li(class="mainDataFont")=experience
+                    a(href="/experience/deleteExperience/" + data.indexOf(experience),class="delete") <i class="fa-solid fa-trash iconSkills"></i>
+        a(href="/experience/addExperience" class="Buttons") Add
+
+    
